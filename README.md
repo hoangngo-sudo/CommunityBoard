@@ -31,8 +31,7 @@ Here's a walkthrough of implemented required features:
 
 <img src='./src/assets/preview.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with ...  
-[ScreenToGif](https://www.screentogif.com/) for Windows
+GIF created with [ScreenToGif](https://www.screentogif.com/)
 
 ## License
 
