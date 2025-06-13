@@ -6,6 +6,8 @@ This web app is **a Psalm devotional resources board for our church**
 
 Time spent: **3** hours spent in total
 
+[Demo link](https://hoangngo-sudo.github.io/communityboard/)
+
 ## Required Features
 
 The following **required** functionality is completed:
