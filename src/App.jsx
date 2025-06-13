@@ -1,5 +1,15 @@
 import { useState, useEffect } from 'react'
 import GridCard from "./GridCard"
+import photo1 from './assets/IMG_1.jpg'
+import photo2 from './assets/IMG_2.jpg'
+import photo3 from './assets/IMG_3.jpg'
+import photo4 from './assets/IMG_4.jpg'
+import photo5 from './assets/IMG_5.jpg'
+import photo6 from './assets/IMG_6.jpg'
+import photo7 from './assets/IMG_7.jpg'
+import photo8 from './assets/IMG_8.jpg'
+import photo9 from './assets/IMG_9.jpg'
+import photo10 from './assets/IMG_10.jpg'
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,70 +47,70 @@ function App() {
             title="Psalm 1"
             smalltitle="A Tree Planted By Streams Of Water"
             description="Psalm 1 shows us that Jesus is our river of living water. Anyone who loves him will be like a thriving tree."
-            image="./src/assets/IMG_1.jpg"
+            image={photo1}
             link="https://www.spokengospel.com/devotionals/psalm-1#read"
           />
           <GridCard
             title="Psalm 2"
             smalltitle="The One Who Sits In Heaven Laughs"
             description="In Psalm 2 we see Jesus as the ultimate heir to David's throne, and God's final anointed king. Jesus is now ruling and frustrating the plans of all our enemies."
-            image="./src/assets/IMG_2.jpg"
+            image={photo2}
             link="https://www.spokengospel.com/devotionals/psalm-2#read"
           />
           <GridCard
             title="Psalm 3"
             smalltitle="You Lift My Head"
             description="In Psalm 3 we see a foreshadow of Jesus. Jesus would one day be betrayed and surrounded by enemies. But the good news is that through Jesus' death, David's prayer comes true! Because of Jesus we can be comforted and rescued."
-            image="./src/assets/IMG_3.jpg"
+            image={photo3}
             link="https://www.spokengospel.com/devotionals/psalm-3#read"
           />
           <GridCard
             title="Psalm 4"
             smalltitle="Let The Light Of Your Face Shine On Us"
             description="In Psalm 4 we see that Jesus is better than false gods because he is God himself, and unlike our idols he conquers death and delivers us from crisis."
-            image="./src/assets/IMG_4.jpg"
+            image={photo4}
             link="https://www.spokengospel.com/devotionals/psalm-4#read"
           />
           <GridCard
             title="Psalm 5"
             smalltitle="Their Throat Is An Open Grave"
             description="In Psalm 5 we see that when Jesus died, the barrier that separated us from God's presence is torn down. All of us can be rescued from our enemies when we take refuge in Jesus."
-            image="./src/assets/IMG_5.jpg"
+            image={photo5}
             link="https://www.spokengospel.com/devotionals/psalm-5#read"
           />
           <GridCard
             title="Psalm 6"
             smalltitle="How Long O Lord"
             description="In Psalm 6 David cries out “how long o lord!” For Christians, the answer is–now! Jesus' love and God’s glory come to our aid whenever we call to him."
-            image="./src/assets/IMG_6.jpg"
+            image={photo6}
             link="https://www.spokengospel.com/devotionals/psalm-6#read"
           />
           <GridCard
             title="Psalm 7"
             smalltitle="I Take Refuge In You"
             description="In Psalm 7 we begin to see Jesus as the once who confirms our innocence and judges the false claims made against us on the cross."
-            image="./src/assets/IMG_7.jpg"
+            image={photo7}
             link="https://www.spokengospel.com/devotionals/psalm-7#read"
           />
           <GridCard
             title="Psalm 8"
             smalltitle="What Is Mankind That You Are Mindful Of Him?"
             description="In Psalm 8 we see that God doesn't just care about his creation, he cares enough to enter into his creation. The almighty God becomes human in Jesus!"
-            image="./src/assets/IMG_8.jpg"
+            image={photo8}
             link="https://www.spokengospel.com/devotionals/psalm-8#read"
           />
           <GridCard
             title="Psalm 9-10"
             smalltitle="The Lord Reigns Forever"
             description="In Psalm 9-10 we see that Jesus is the judge of the whole earth."
-            image="./src/assets/IMG_9.jpg"
+            image={photo9}
             link="https://www.spokengospel.com/devotionals/psalm-9-10#read"
           />
           <GridCard
             title="Psalm 11"
             smalltitle="Why Do You Hide Yourself?"
             description="In Psalm 11 we see Jesus as the one who fights our enemies and is our refuge."
-            image="./src/assets/IMG_10.jpg"
+            image={photo10}
             link="https://www.spokengospel.com/devotionals/psalm-11#read"
           />
         </div>
